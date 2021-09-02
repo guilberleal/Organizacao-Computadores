@@ -1,0 +1,5 @@
+nasm -f elf64 nome.asm
+
+gcc -static -o nome nome.o
+
+./nome

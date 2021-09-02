@@ -1,0 +1,17 @@
+for 
+	if
+		print
+	print
+	print
+
+
+je imprime
+jne resto_for
+
+
+imprime :
+
+
+resto_for:
+
+	 

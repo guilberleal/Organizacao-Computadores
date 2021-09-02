@@ -1,0 +1,21 @@
+extern printf
+
+section .data
+	a dd 5
+	b dd 5
+	sa dd 0
+	sb dd 0
+	um dd 1
+	cinco dd 5
+	
+	msg1 db "%d",13,10,0
+	msg2 db "%d",13,10,0
+	msg3 db "%d",13,10,0
+	msg4 db "%d",13,10,0
+section .code
+	global main
+main:
+	push rbp
+	mov rdp,rsp
+	
+	
